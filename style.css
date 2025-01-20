@@ -359,3 +359,52 @@ margin: 30px 0;
     margin-right: 20px;
 }
 
+
+/* responsive style  */
+@media screen and (max-width: 576px) {
+    header, 
+    .curriculum-container, 
+    .arrow-container, 
+    .stories,
+    .footer-container{
+        padding: 20px;
+    }
+    .hero-container{
+        flex-direction: column-reverse;
+    }
+    .hero-content{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .curriculum-box-container, .footer-container{
+        flex-direction: column;
+    }
+
+    #stories-1, 
+    .arrow-container, 
+    nav ul{
+        display: none;
+    }
+    .stories{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .social-media{
+        margin: 20px 0;
+    }
+    .navbar-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 577px) {
+    hr{
+       display: none;
+    }
+    .fa-bars{
+        display: none;
+    }
+}
