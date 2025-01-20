@@ -316,3 +316,46 @@ margin: 30px 0;
     display: flex;
     justify-content: center;
 }
+
+
+/* footer section style  */
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 120px;
+    background-color: rgb(1, 172, 253);
+    color: white;
+}
+
+.footer-logo{
+    display: flex;
+    gap: 10px;
+}
+
+.footer-container p{
+    margin: 20px 0 20px 5px;
+}
+
+.footer-container h4{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.footer-container ul{
+    list-style: none;
+}
+
+.footer-container ul li{
+   line-height: 35px;
+   font-weight: 500;
+}
+
+.social-media ul{
+    display: flex;
+    
+}
+
+.social-media ul li{
+    margin-right: 20px;
+}
+
