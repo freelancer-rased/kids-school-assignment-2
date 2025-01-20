@@ -108,3 +108,80 @@ nav ul a {
   border-radius: 10px;
   font-weight: 700;
 }
+
+
+/* standard curriculum style  */
+
+.curriculum-container h2{
+    text-align: center;
+    padding: 100px 0 40px 0;
+    font-size: 2.5rem;
+}
+
+.curriculum-container{
+    margin-bottom: 50px;
+    background-image: url('./assets/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.curriculum-box-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.curriculum-box{
+    border-radius: 15px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    padding: 40px;
+}
+
+.curriculum-box img{
+    width: 110px;
+}
+
+.curriculum-box h3{
+    font-size: 1.5rem;
+    margin: 25px 0;
+    font-weight: 700;
+}
+
+.curriculum-box p{
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.curriculum-box a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.read-more-1{
+    color: rgb(100, 200, 255);
+}
+.read-more-2{
+    color: rgb(240, 170, 0);
+}
+.read-more-3{
+    rgb(135, 0, 255)
+}
+
+#curriculum-box-1{
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    border: 0.94px solid rgb(222, 245, 255);
+}
+
+#curriculum-box-2{
+    border: 0.94px solid rgb(255, 244, 220);
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+#curriculum-box-3{
+    border: 0.94px solid rgb(242, 232, 255);
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
